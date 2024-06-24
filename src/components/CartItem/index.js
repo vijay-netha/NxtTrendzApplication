@@ -71,7 +71,7 @@ const CartItem = props => (
             className="delete-button"
             type="button"
             onClick={onRemoveCartItem}
-            // eslint-disable-next-line react/no-unknown-property
+            aria-label="Mute volume"
             data-testid="remove"
           >
             <AiFillCloseCircle color="#616E7C" size={20} />
